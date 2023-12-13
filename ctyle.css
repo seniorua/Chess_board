@@ -1,0 +1,102 @@
+body{
+  background-color: rgb(55, 86, 131);
+  color: white;
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+h1{
+  width: 200px;
+  margin: 0 auto;
+}
+
+.task{
+  width: 500px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+/* ********************************** */
+.container-block{
+  display: flex;
+  flex-direction: column;
+  /* box-sizing: border-box; */
+  /* align-content: flex-start; */
+  width: max-content;
+  margin: 20px auto;
+  /* flex-wrap: wrap; */
+  background-color: blanchedalmond;
+}
+.row-block{
+  display: flex;
+  width: max-content;
+  /* border: 1px dotted blue ; */
+  /* align-content: flex-start; */
+}
+.insert-block{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(12, 5, 71);
+  border: 1px solid #ebe7e7;
+}
+
+.white{
+  background-color: #fff;
+}
+/* ********************************** */
+
+.form p{
+  display: inline-block;
+}
+
+.form{
+  display: flex;
+  margin: 0 auto;
+  width: max-content;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(132, 149, 241);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.button{
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid rgb(132, 149, 241);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: rgb(161, 173, 241);
+}
+
+.button:active{
+  background-color: rgb(34, 99, 197);
+}
+.button:disabled{
+  opacity: 0.4;
+}
+
+.button:disabled:hover{
+  background-color: transparent;
+}
+
+input{
+  border: 2px solid rgb(132, 149, 241);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(55, 86, 131);
+  color: white;
+}
+
+/* .content {
+  box-sizing: border-box;
+  padding: 20px;
+} */
